@@ -13,7 +13,11 @@ const NavBar = (props) => (
         elevation='small'
         style={{ zIndex: '1' }}
         height='small'
-        {...props}/>
+        alignContent='center'
+        gridArea='header'
+        {...props}>
+        Agave Pilates
+    </Box>
 )
 
 export default NavBar
