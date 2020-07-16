@@ -1,0 +1,14 @@
+.collapsed-menu {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    padding: 5px;
+}
+
+.uncollapsed-menu-text {
+    font-family: 'Sacramento', cursive;
+    padding-top: 25%
+}
+
+.home-body {
+    background-color: #A8C6C4;
+}

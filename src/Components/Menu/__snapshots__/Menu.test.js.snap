@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> renders the component 1`] = `
+<body>
+  <div>
+    <div
+      class="d-md-none container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="collapsed-menu col-md-12"
+        >
+          <img
+            alt="Illustration of an agave plant"
+            class=""
+            src="png_large_textAsset 5xhdpi.png"
+            style="max-width: 30%; padding-bottom: 10px;"
+          />
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="collapsed-menu col-md-12"
+        >
+          <h4>
+            About Jenny
+          </h4>
+        </div>
+      </div>
+      <div
+        class="row"
+      >
+        <div
+          class="collapsed-menu col-md-12"
+        >
+          <h4>
+            Scheduling
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div
+      class="d-none d-md-block container"
+      style="padding-bottom: 5%;"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col"
+        >
+          <h2
+            class="uncollapsed-menu-text"
+          >
+            About Jenny
+          </h2>
+        </div>
+        <div
+          class="col"
+        >
+          <img
+            alt="Illustration of an agave plant"
+            class=""
+            src="png_large_textAsset 5xhdpi.png"
+            style="max-width: 55%; padding-top: 10%;"
+          />
+        </div>
+        <div
+          class="col"
+        >
+          <h2
+            class="uncollapsed-menu-text"
+          >
+            Scheduling
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
