@@ -27,15 +27,15 @@ const Menu = (props) => (
                 </Col>
             </Row>
         </Container>
-        <Container className='d-none d-md-block' style={{ paddingBottom: '5%'}}>
+        <Container className='d-none d-md-block' style={{ paddingBottom: '5%', alignItems: 'center'}}>
             <Row>
-                <Col>
+                <Col flex>
                     <h2 className='uncollapsed-menu-text'>About Jenny</h2>
                 </Col>
-                <Col>
-                    <Image src={logo} alt='Illustration of an agave plant' style={{ maxWidth: '55%', paddingTop: '10%'}} />
+                <Col flex>
+                    <div style={{ textAlign: 'center'}}><Image src={logo} alt='Illustration of an agave plant' style={{ maxWidth: '55%', paddingTop: '10%', marginLeft: '20px'}} /></div>
                 </Col>
-                <Col>
+                <Col flex>
                     <h2 className='uncollapsed-menu-text'>Scheduling</h2>
                 </Col>
             </Row>
